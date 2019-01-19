@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="application/javascript" src="app.js"></script>
+    <link href="index.css" rel="stylesheet"/>
+    <title>Poker Solver</title>
+</head>
+<body>
+<!--main page div -->
+<div class="mainView">
+    <div class="header">The Poker Solver</div>
+
+    <h2 id="instruction"><i>Chose 5 cards</i></h2>
+    <!--cards div-->
+    <div class="cardBlock">
+        <!--hearts list-->
+        <div class=cardsField>
+
+            <div id="hR2" class="cardElement" onclick="chose(id)">
+                <img src="images/heart2.png" class="card" alt="heart 2">
+            </div>
+
+
+            <div id="hR3" class="cardElement" onclick="chose(id)">
+                <img src="images/heart3.png" class="card" alt="heart 3">
+            </div>
+
+            <div id="hR4" class="cardElement" onclick="chose(id)">
+                <img src="images/heart4.png" class="card" alt="heart 4">
+            </div>
+
+
+            <div id="hR5" class="cardElement" onclick="chose(id)">
+                <img src="images/heart5.png" class="card" alt="heart 5">
+            </div>
+
+
+            <div id="hR6" class="cardElement" onclick="chose(id)">
+                <img src="images/heart6.png" class="card" alt="heart 6">
+            </div>
+
+
+            <div id="hR7" class="cardElement" onclick="chose(id)">
+                <img src="images/heart7.png" class="card" alt="heart 7">
+            </div>
+
+            <div id="hR8" class="cardElement" onclick="chose(id)">
+                <img src="images/heart8.png" class="card" alt="heart 8">
+            </div>
+
+
+            <div id="hR9" class="cardElement" onclick="chose(id)">
+                <img src="images/heart9.png" class="card" alt="heart 9">
+            </div>
+
+
+            <div id="hR0" class="cardElement" onclick="chose(id)">
+                <img src="images/heart10.png" class="card" alt="heart 10">
+            </div>
+
+
+            <div id="hRJ" class="cardElement" onclick="chose(id)">
+                <img src="images/heartJack.png" class="card" alt="heart Jack">
+            </div>
+
+
+            <div id="hRQ" class="cardElement" onclick="chose(id)">
+                <img src="images/heartQueen.png" class="card" alt="heart Queen">
+            </div>
+
+            <div id="hRK" class="cardElement" onclick="chose(id)">
+                <img src="images/heartKing.png" class="card" alt="heart King">
+            </div>
+
+            <div id="hRA" class="cardElement" onclick="chose(id)">
+                <img src="images/heartAce.png" class="card" alt="heart Ace">
+            </div>
+        </div>
+
+        <!-- diamonds list -->
+        <div class="cardsField">
+
+            <div id="dR2" class="cardElement" onclick="chose(id)">
+                <img src="images/diamond2.png" class="card" alt="diamond 2">
+            </div>
+
+
+            <div id="dR3" class="cardElement" onclick="chose(id)">
+                <img src="images/diamond3.png" class="card" alt="diamond 3">
+            </div>
+
+            <div id="dR4" class="cardElement" onclick="chose(id)">
+                <img src="images/diamond4.png" class="card" alt="diamond 4">
+            </div>
+
+
+            <div id="dR5" class="cardElement" onclick="chose(id)">
+                <img src="images/diamond5.png" class="card" alt="diamond 5">
+            </div>
+
+
+            <div id="dR6" class="cardElement" onclick="chose(id)">
+                <img src="images/diamond6.png" class="card" alt="diamond 6">
+            </div>
+
+
+            <div id="dR7" class="cardElement" onclick="chose(id)">
+                <img src="images/diamond7.png" class="card" alt="diamond 7">
+            </div>
+
+            <div id="dR8" class="cardElement" onclick="chose(id)">
+                <img src="images/diamond8.png" class="card" alt="diamond 8">
+            </div>
+
+
+            <div id="dR9" class="cardElement" onclick="chose(id)">
+                <img src="images/diamond9.png" class="card" alt="diamond 9">
+            </div>
+
+
+            <div id="dR0" class="cardElement" onclick="chose(id)">
+                <img src="images/diamond10.png" class="card" alt="diamond 10">
+            </div>
+
+
+            <div id="dRJ" class="cardElement" onclick="chose(id)">
+                <img src="images/diamondJack.png" class="card" alt="diamond Jack">
+            </div>
+
+
+            <div id="dRQ" class="cardElement" onclick="chose(id)">
+                <img src="images/diamondQueen.png" class="card" alt="diamond Queen">
+            </div>
+
+            <div id="dRK" class="cardElement" onclick="chose(id)">
+                <img src="images/diamondKing.png" class="card" alt="diamond King">
+            </div>
+
+            <div id="dRA" class="cardElement" onclick="chose(id)">
+                <img src="images/diamondAce.png" class="card" alt="diamond Ace">
+            </div>
+
+        </div>
+
+        <!--clubs list-->
+        <div class="cardsField">
+
+            <div id="cB2" class="cardElement" onclick="chose(id)">
+                <img src="images/club2.png" class="card" alt="club 2">
+            </div>
+
+            <div id="cB3" class="cardElement" onclick="chose(id)">
+                <img src="images/club3.png" class="card" alt="club 3">
+            </div>
+
+            <div id="cB4" class="cardElement" onclick="chose(id)">
+                <img src="images/club4.png" class="card" alt="club 4">
+            </div>
+
+            <div id="cB5" class="cardElement" onclick="chose(id)">
+                <img src="images/club5.png" class="card" alt="club 5">
+            </div>
+
+            <div id="cB6" class="cardElement" onclick="chose(id)">
+                <img src="images/club6.png" class="card" alt="club 6">
+            </div>
+
+            <div id="cB7" class="cardElement" onclick="chose(id)">
+                <img src="images/club7.png" class="card" alt="club 7">
+            </div>
+
+            <div id="cB8" class="cardElement" onclick="chose(id)">
+                <img src="images/club8.png" class="card" alt="club 8">
+            </div>
+
+            <div id="cB9" class="cardElement" onclick="chose(id)">
+                <img src="images/club9.png" class="card" alt="club 9">
+            </div>
+
+            <div id="cB0" class="cardElement" onclick="chose(id)">
+                <img src="images/club10.png" class="card" alt="club 10">
+            </div>
+
+            <div id="cBJ" class="cardElement" onclick="chose(id)">
+                <img src="images/clubJack.png" class="card" alt="club Jack">
+            </div>
+
+            <div id="cBQ" class="cardElement" onclick="chose(id)">
+                <img src="images/clubQueen.png" class="card" alt="club Queen">
+            </div>
+
+            <div id="cBK" class="cardElement" onclick="chose(id)">
+                <img src="images/clubKing.png" class="card" alt="club King">
+            </div>
+
+            <div id="cBA" class="cardElement" onclick="chose(id)">
+                <img src="images/clubAce.png" class="card" alt="club Ace">
+            </div>
+
+        </div>
+
+        <!--spades List-->
+        <div class="cardsField">
+
+            <div id="sB2" class="cardElement" onclick="chose(id)">
+                <img src="images/spade2.png" class="card" alt="spade 2">
+            </div>
+
+            <div id="sB3" class="cardElement" onclick="chose(id)">
+                <img src="images/spade3.png" class="card" alt="spade 3">
+            </div>
+
+            <div id="sB4" class="cardElement" onclick="chose(id)">
+                <img src="images/spade4.png" class="card" alt="spade 4">
+            </div>
+
+            <div id="sB5" class="cardElement" onclick="chose(id)">
+                <img src="images/spade5.png" class="card" alt="spade 5">
+            </div>
+
+            <div id="sB6" class="cardElement" onclick="chose(id)">
+                <img src="images/spade6.png" class="card" alt="spade 6">
+            </div>
+
+            <div id="sB7" class="cardElement" onclick="chose(id)">
+                <img src="images/spade7.png" class="card" alt="spade 7">
+            </div>
+
+            <div id="sB8" class="cardElement" onclick="chose(id)">
+                <img src="images/spade8.png" class="card" alt="spade 8">
+            </div>
+
+            <div id="sB9" class="cardElement" onclick="chose(id)">
+                <img src="images/spade9.png" class="card" alt="spade 9">
+            </div>
+
+            <div id="sB0" class="cardElement" onclick="chose(id)">
+                <img src="images/spade10.png" class="card" alt="spade 10">
+            </div>
+
+            <div id="sBJ" class="cardElement" onclick="chose(id)">
+                <img src="images/spadeJack.png" class="card" alt="spade Jack">
+            </div>
+
+            <div id="sBQ" class="cardElement" onclick="chose(id)">
+                <img src="images/spadeQueen.png" class="card" alt="spade Queen">
+            </div>
+
+            <div id="sBK" class="cardElement" onclick="chose(id)">
+                <img src="images/spadeKing.png" class="card" alt="spade King">
+            </div>
+
+            <div id="sBA" class="cardElement" onclick="chose(id)">
+                <img src="images/spadeAce.png" class="card" alt="spade Ace">
+            </div>
+
+        </div>
+    </div>
+
+    <hr class="line">
+
+    <button id="resetButton" value="Refresh Page" onclick="reset()"><b>Reset</b></button>
+
+    <div>
+        <div class="mySet" id="_set"></div>
+        <div class="messageBox" id="mB"></div>
+    </div>
+
+</div>
+
+</body>
+</html>

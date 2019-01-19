@@ -1,0 +1,96 @@
+body {
+    background-color: green;
+}
+
+.mainView {
+    width: 1000px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    width: 1000px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: Broadway, serif;
+    color: orange;
+
+}
+
+#instruction {
+    height: 20px;
+    text-align: center;
+    font-family: Broadway, serif;
+    color: orange;
+
+}
+
+.cardBlock {
+    width: 988px;
+    height: 416px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardsField {
+    width: 988px;
+    height: 102px;
+    padding-bottom: 2px;
+
+}
+
+.card {
+    width: 72px;
+    height: 100px;
+}
+
+.cardElement {
+    width: 72px;
+    height: 100px;
+    float: left;
+    padding: 2px;
+}
+
+.line {
+    color: orange;
+    height: 2px;
+    background-color: orange;
+    border: none;
+}
+
+#resetButton {
+    width: 150px;
+    height: 30px;
+    background-color: orange;
+    border-color: salmon;
+    color: crimson;
+    font-size: 20px;
+    text-align: center;
+    margin: 4px 2px;
+    border-radius: 7px;
+}
+
+.mySet {
+    width: 380px;
+    height: 104px;
+    float: left;
+
+}
+
+.messageBox {
+    width: 340px;
+    height: 64px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    font-family: Broadway, serif;
+    padding: 20px;
+    color: orange;
+    text-underline: orange;
+    text-decoration: underline;
+}
+
